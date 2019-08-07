@@ -1,0 +1,39 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Derby
+derby.log
+
+# Vagrant / Ansible
+.vagrant
+.vault_pass.txt
+**/*.retry
+provisioning/.ansible-fact.cache/
+
+# JRebel
+rebel.xml
+
+.nyc_output/
